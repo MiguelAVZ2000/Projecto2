@@ -8,6 +8,8 @@ Este proyecto utiliza algoritmos de Machine Learning para detectar transacciones
 
 Fuente: Kaggle - Credit Card Fraud Detection
 
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 Tamaño: 284,807 transacciones
 
 Clases:
