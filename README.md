@@ -1,10 +1,10 @@
-Detección de Fraude en Transacciones con Tarjeta de Crédito
+# **Detección de Fraude en Transacciones con Tarjeta de Crédito**
 
-Descripción
+### **Descripción**
 
 Este proyecto utiliza algoritmos de Machine Learning para detectar transacciones fraudulentas con tarjetas de crédito. Se basa en el dataset de detección de fraude en tarjetas de crédito disponible en Kaggle.
 
-📊 Dataset
+## **Dataset**
 
 Fuente: Kaggle - Credit Card Fraud Detection
 
@@ -20,19 +20,19 @@ Clases:
 
 Variables: 30 (V1-V28 son variables anonimizadas, junto con Time y Amount)
 
-⚙️ Tecnologías Utilizadas
+## **Tecnologías Utilizadas**
 
-Python
+-Python
 
-Pandas (para manipulación de datos)
+-Pandas (para manipulación de datos)
 
-Matplotlib & Seaborn (visualización de datos)
+-Matplotlib & Seaborn (visualización de datos)
 
-Scikit-learn (modelo de machine learning)
+-Scikit-learn (modelo de machine learning)
 
-Imbalanced-learn (SMOTE) (manejo del desbalanceo de datos)
+-Imbalanced-learn (SMOTE) (manejo del desbalanceo de datos)
 
-📈 Flujo del Proyecto
+## **Flujo del Proyecto**
 
 Exploración y limpieza de datos
 
@@ -46,7 +46,7 @@ Evaluación del modelo
 
 Guardado del modelo entrenado
 
-🔥 Resultados del Modelo
+## **Resultados del Modelo**
 
 Accuracy: 98.85%
 
@@ -56,21 +56,22 @@ Recall (fraude): 94%
 
 F1-score: 96%
 
-🚀 Instalación y Uso
+## **Instalación y Uso**
 
 Clona el repositorio:
-
+```bash
 git clone https://github.com/tu-usuario/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
-
+```
 Instala dependencias:
-
+```bash
 pip install -r requirements.txt
-
+```
 Ejecuta el código:
 
+```bash
 python fraud_detection.py
-
+```
 📂 Estructura del Proyecto
 
 ├── data
